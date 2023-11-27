@@ -1,0 +1,121 @@
+@media screen and (min-width: 360px) and (max-width: 420px), screen and (min-width: 421px) and (max-width: 768px) {
+  body header {
+    height: 64px;
+  }
+  body header .header-div {
+    max-width: 310px;
+  }
+  body header .header-div .logo {
+    font-size: 30px !important;
+  }
+  body header .header-div .gb {
+    font-size: 16px;
+  }
+  body .body-div {
+    width: 330px;
+    height: 296px;
+    border-radius: 20px;
+    margin: 220px auto 60px auto;
+    padding: 40px 40px 35px 40px;
+  }
+  body .body-div .answers {
+    max-width: 247px;
+  }
+  body .body-div button {
+    width: 113px;
+    height: 56px;
+    border-radius: 15px;
+    font-size: 16px;
+  }
+  body .body-div .title {
+    font-size: 16px;
+  }
+  body .body-div .big {
+    width: 200px;
+    left: calc(50% - 100px);
+  }
+  body .body-div p {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  body .body-div #timer {
+    width: 174px;
+  }
+  body .body-div #timer #hours, body .body-div #timer #minutes {
+    position: relative;
+  }
+  body .body-div #timer #hours::before, body .body-div #timer #minutes::before {
+    margin-right: -66px;
+    margin-bottom: 6px;
+  }
+  body .body-div #timer .congrats {
+    font-size: 40px;
+  }
+  body .body-div #timer .count-box {
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 26px;
+  }
+  body .body-div .diff {
+    font-size: 30px;
+  }
+  body .background-woman {
+    top: 26px;
+    left: calc(50% - 160px);
+  }
+  body .background-woman img {
+    height: 401px;
+    width: 320px;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 420px) {
+  body {
+    background-image: url(/img/background360.png);
+    background-size: 130%;
+    background-position-x: 40%;
+  }
+}
+@media screen and (min-width: 421px) and (max-width: 768px) {
+  body {
+    background-size: 400%;
+    background-position-x: 40%;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1919px) {
+  body {
+    background-size: 260%;
+    background-position-x: 50%;
+  }
+  body header .header-div {
+    max-width: 660px;
+  }
+  body header .header-div .logo {
+    font-size: 40px;
+  }
+  body header .header-div .gb {
+    font-size: 30px;
+  }
+  body .body-div {
+    max-width: 660px;
+    max-height: 457px;
+  }
+  body .body-div .answers {
+    max-width: 372px;
+  }
+  body .body-div button {
+    font-size: 25px;
+  }
+  body .body-div .title {
+    font-size: 30px;
+  }
+  body .body-div p {
+    font-size: 45px;
+  }
+  body .body-div #timer .congrats {
+    font-size: 80px;
+  }
+  body .body-div .diff {
+    font-size: 35px;
+  }
+}/*# sourceMappingURL=mediamax.css.map */
